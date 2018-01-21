@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#resource-content {
+	width: 1000px;
+	height: 300px;
+	background: #fff;
+	margin: 0px auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#resource-content ul {
+	list-style: none;
+}
+
+#resource-content .resource-item {
+	width: 960px;
+	border-bottom: 1px dotted #D4D4D4;
+	margin: 0px auto;
+	padding-bottom: 6px;
+}
+
+#resource-content .resource-item h1{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+}

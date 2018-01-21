@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#picture-content {
+	width: 1000px;
+	background: #fff;
+	margin: 0px auto;
+	padding: 6px;
+	box-sizing: border-box;
+	font-size: 0px;
+}
+
+#picture-content img {
+	width: 242px;
+	height: 150px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}

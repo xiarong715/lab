@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*
+成员页面独有
+*/
+#member-form {
+	width: 1000px;
+	background: #fff;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#tips-frame {
+	width: 1000px;
+	height: 45px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+}
+
+#tips-frame .tips {
+	padding-left: 20px;
+}
+
+#tips-frame .changeframe {
+	/*font-size: 0px;*/ /*消除div中除图片多余的空隙*/
+	position: absolute;
+	top: 3px;
+	right: 20px;
+}
+
+#tips-frame .changeframe .img-list {
+	margin-left: 6px;
+}
+
+.member-block {
+	width: 960px;
+	margin: 0px auto;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 6px;
+}
+
+.member-block .member-block-title {
+	height: 30px;
+	background: #00A097;
+}
+
+.member-block .member-block-title span {
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	padding: 6px;
+	font-weight: 700;
+}
+
+.member-block .member-list {
+	padding: 10px;
+}
+
+.member-block .member-list .member-display {
+	width: 80px;
+	text-align: center;
+	border: 1px solid #fff;
+	transition: all 0.5s;
+}
+
+.member-block .member-list .member-display:hover {
+	border: 1px solid #00A097;
+}
+
+.member-block .member-list .member-display .mem-img {
+	width: 60px;
+	height: 60px;
+}
+
+.member-block .member-list .member-display span.mem-zh-name, 
+.member-block .member-list .member-display span.mem-en-name {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+
+.member-block .member-list .member-display span.mem-zh-name {
+	color: #00A097;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	/*text-wrap: none;*/ /*主流浏览器都不支持*/
+}
+
+.member-block .member-list .member-display span.mem-en-name {
+	color: #cccccc;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	/*text-wrap: none;*/ /*主流浏览器都不支持*/
+}
+
+.member-block .member-list .member-display a {
+	text-decoration: none;
+}
+
+.member-block .member-list {
+	display: flex;
+}
